@@ -219,11 +219,7 @@ function AnimatedStatusMessage({ status }: { status: 'idle' | 'success' | 'error
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}
-      className={`p-4 rounded-lg text-center font-semibold ${
-        status === 'success'
-          ? 'bg-green-500/20 text-green-400 border border-green-500/30'
-          : 'bg-red-500/20 text-red-400 border border-red-500/30'
-      }`}
+      className="mt-2 text-center font-semibold text-white"
     >
       {status === 'success'
         ? 'Thanks! Your message has been sent successfully. I will get back to you soon.'
