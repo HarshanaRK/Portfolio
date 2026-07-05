@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Section from '../Section'
 import Card from '../Card'
 import Badge from '../Badge'
+import { FolderGit2 } from 'lucide-react'
 import { allProjects, projectCategories } from '@/lib/content'
 
 export default function Projects() {
@@ -49,16 +50,16 @@ export default function Projects() {
               transition={{ duration: 0.4 }}
             >
               <Card hover={true} glass={true} className="h-full flex flex-col">
-                {/* Project Image */}
-                <motion.div
-                  className={`w-full h-48 rounded-lg mb-4 ${project.image} relative overflow-hidden group`}
-                  whileHover={{ scale: 1.05 }}
-                >
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300" />
-                </motion.div>
 
-                {/* Content */}
-                <h3 className="text-xl font-bold text-foreground mb-2">{project.title}</h3>
+  {/* Project Icon */}
+  <div className="mb-5 flex items-center justify-center w-14 h-14 rounded-xl bg-primary/10">
+  <FolderGit2 className="w-7 h-7 text-primary" />
+</div>
+
+  {/* Content */}
+  <h3 className="text-xl font-bold text-foreground mb-2">
+    {project.title}
+  </h3>
                 <p className="text-foreground/70 text-sm mb-4 flex-grow">{project.description}</p>
 
                 {/* Tags */}
