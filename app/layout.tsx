@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Premium Portfolio | Full-Stack Developer',
+    title: 'Harshana R K |Premium Portfolio | Full-Stack Developer',
     description: 'Explore my professional portfolio showcasing projects, experience, and technical expertise.',
   },
   icons: {
