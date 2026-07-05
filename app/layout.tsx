@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://portfolio.example.com',
-    title: 'Premium Portfolio | Full-Stack Developer',
+    title: 'Harshana R K |Premium Portfolio | Full-Stack Developer',
     description: 'Explore my professional portfolio showcasing projects, experience, and technical expertise.',
     images: [
       {
