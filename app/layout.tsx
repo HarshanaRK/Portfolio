@@ -10,7 +10,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Premium Portfolio | Full-Stack Developer',
+  title: 'Harshana R K |Premium Portfolio | Full-Stack Developer',
   description: 'Explore my professional portfolio showcasing projects, experience, and technical expertise.',
   generator: 'v0.app',
   keywords: ['portfolio', 'developer', 'full-stack', 'projects', 'experience'],
