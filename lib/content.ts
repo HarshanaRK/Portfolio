@@ -6,11 +6,12 @@ export type NavItem = {
   href: string
 }
 
-export const navItems: NavItem[] = [
+export const navItems = [
   { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
-  { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
+  { label: 'Certifications', href: '#certifications' },
+  { label: 'Projects', href: '#projects' },
   { label: 'Contact', href: '#contact' },
 ]
 
