@@ -18,7 +18,7 @@ export default function Footer() {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2">
-              Harshana R K
+              Harshana Raajakannan
             </h3>
             <p className="text-muted-foreground">
               Cybersecurity Enthusiast | Full-Stack Developer | AI & ML Explorer | Always Learning
